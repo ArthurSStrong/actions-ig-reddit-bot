@@ -137,11 +137,11 @@ def post_on_reddit(posts: list):
                          user_agent=config.USER_AGENT, username=config.REDDIT_USERNAME,
                          password=config.REDDIT_PASSWORD)
 
-    _log = load_file(LOG_FILE)
+    #_log = load_file(LOG_FILE)
 
     for idx, post in enumerate(posts, start=1):
 
-        #if post['shortcode'] in _log:
+        #if post['shortcode'] in #_log:
         #    continue
 
         _img = get_image(post['display_url'])
