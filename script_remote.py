@@ -167,5 +167,6 @@ if __name__ == "__main__":
 
     if len(_posts) < 1:
         print(f'------ There\'s no new posts; End of script\n:')
+        exit(0)
 
     post_on_reddit(_posts)
