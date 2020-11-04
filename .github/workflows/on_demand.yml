@@ -1,4 +1,4 @@
-name: Reddit RSS News On Demand
+name: Reddit IG Feed On Demand
 
 on: 
   workflow_dispatch:
